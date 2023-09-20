@@ -68,7 +68,7 @@ _start:
 	xor	bh,bh
 	int	0x10
 	mov	cx,#11
-	mov	bx,#0x0007		! page 0, attribute c 
+	mov	bx,#0x0007		! page 0, attribute 7 
 	mov	bp,#cur
 	mov	ax,#0x1301		! write string, move cursor
 	int	0x10
