@@ -6,7 +6,7 @@ begdata:
 .bss
 begbss:
 .text
-我是习涵爸爸
+
 BOOTSEG  = 0x07c0			! original address of boot-sector
 INITSEG  = 0x9000			! we move boot here - out of the way
 SETUPSEG = 0x9020			! setup starts here
